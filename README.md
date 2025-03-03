@@ -1,7 +1,10 @@
-# Predicta-Play
+# netflix-gpt
 
 - create React app
 - Configured TailwindCSS
+- Header
+- Login form
+- sign up/Sign In form
 
 
 
@@ -20,4 +23,4 @@
 
 - AI suggestor
    - search bar
-   -Movie suggestion
+   - Movie suggestion
