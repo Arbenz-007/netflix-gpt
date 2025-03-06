@@ -26,7 +26,7 @@
 - Planning for MainContainer & secondaryConatianer
 - fetch data for trailer videos
 - Embedded the yt video and autoplay and mute
-
+- Build Secondary Container
 
 
 
