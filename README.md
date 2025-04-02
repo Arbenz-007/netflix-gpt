@@ -31,6 +31,12 @@
 - Build Movie card
 - Made Browse page amazing
 - created new custom hooks
+- GPT search feature
+- created GPT search bar
+- Added Multi-Language feature in our App
+- Integrate api
+
+
 
 
 
