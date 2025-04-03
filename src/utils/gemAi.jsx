@@ -1,5 +1,6 @@
 import { GoogleGenAI } from "@google/genai";
+import { GEM_AI } from "./constants";
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyD0xj5tOqmO4Rs5s2hzvWkMjRQIH8tb0bo" }); 
+const ai = new GoogleGenAI({ apiKey: GEM_AI }); 
 
 export default ai;

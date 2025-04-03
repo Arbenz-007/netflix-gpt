@@ -30,14 +30,16 @@ const GptSearchBar = () => {
     const query =
       "Act as a Movie Recommendation system and suggest some movies for the query :" +
       searchText.current.value +
-      ". only give me names of 5 movies, comma seperared like the example result given ahead. Example result: Gadar, Sholay, Don , Movies A , Movies B";
+      ". only give me names of 5 movies, comma seperared like the example result given ahead. Example result: Gadar, Sholay, Don , Movies A , Movies B incase of blank search or unrelated just skip it or let the result be blank dont return anything not even a single word ";
     const response = await ai.models.generateContent({
       model: "gemini-2.0-flash",
       contents: query,
     });
     // console.log(response.text);
+    if(response.text == 'null') return null;
     const aiMovies = response.text.split(",");
     // console.log(aiMovies);
+    
 
     //for each movie I'll search for it in tmdb api
     const promiseArray =aiMovies.map((movie)=> searchMovieTmdb(movie));
@@ -48,9 +50,9 @@ const GptSearchBar = () => {
     dispatch(addGptMovieResult({movieNames:aiMovies, movieResults:tmdbResults}));
   };
   return (
-    <div className=" pt-[10%] flex justify-center">
+    <div className="pt-[50%] md:pt-[10%] flex justify-center">
       <form
-        className="w-1/2 bg-black grid grid-cols-12"
+        className="w-screen md:w-1/2 bg-black grid grid-cols-12"
         onClick={(e) => e.preventDefault()}
       >
         <input

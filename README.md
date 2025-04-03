@@ -35,6 +35,10 @@
 - created GPT search bar
 - Added Multi-Language feature in our App
 - Integrate api
+- Gemini search api call
+- Create gptslice added data
+- Added. env file to gitignore
+- Made site responsive
 
 
 

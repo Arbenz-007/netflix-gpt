@@ -6,7 +6,7 @@ export const API_OPTIONS = {
   headers: {
     accept: "application/json",
     Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4NDNlYzI1YWJhZDVmNWNjMDdlMDgzOWZmZDFiZDAyMSIsIm5iZiI6MTc0MTIwMDIxMS4xMDMwMDAyLCJzdWIiOiI2N2M4OWI1MzBhMDA1NzYxNDNjMmI5ZTciLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.qik8Mm4sXJQSJTHqK1aXBqGiVjtMq6MaXSTLVyyFWV8",
+      "Bearer "+ import.meta.env.VITE_TMDB_KEY,
   },
 };
 
@@ -21,4 +21,4 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "hindi", name: "Hindi" },
 ];
 
-export const GEMAPI= "AIzaSyD0xj5tOqmO4Rs5s2hzvWkMjRQIH8tb0bo";
+export const GEM_AI= import.meta.env.VITE_GEMAPI;
