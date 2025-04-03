@@ -20,3 +20,5 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "spanish", name: "Spanish" },
   { identifier: "hindi", name: "Hindi" },
 ];
+
+export const GEMAPI= "AIzaSyD0xj5tOqmO4Rs5s2hzvWkMjRQIH8tb0bo";
