@@ -4,7 +4,7 @@ A modern, full-stack Netflix clone built with React that combines the power of A
 
 ## 🚀 Live Demo
 
-[View Live Application](https://netflixgpt-omega.vercel.app/)
+[View Live Application](https://netflixgpt-43bbf.web.app/browse)
 
 ## 🛠️ Tech Stack
 
@@ -72,43 +72,6 @@ A modern, full-stack Netflix clone built with React that combines the power of A
 - Firebase project
 - Google Gemini AI API key
 
-### Setup Instructions
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/netflixgpt.git
-   cd netflixgpt
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Environment Configuration**
-   Create a `.env` file in the root directory:
-   ```env
-   VITE_TMDB_KEY=your_tmdb_api_key
-   VITE_GEMAPI=your_gemini_ai_api_key
-   VITE_FIREBASE_API_KEY=your_firebase_api_key
-   VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
-   VITE_FIREBASE_PROJECT_ID=your_project_id
-   VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
-   VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-   VITE_FIREBASE_APP_ID=your_app_id
-   ```
-
-4. **Start development server**
-   ```bash
-   npm run dev
-   ```
-
-5. **Build for production**
-   ```bash
-   npm run build
-   ```
-
-## 🎯 Usage
 
 ### Getting Started
 1. **Sign Up/Login** - Create an account or sign in with existing credentials
@@ -183,22 +146,11 @@ netflixgpt/
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - **TMDB** for providing comprehensive movie data
 - **Google Gemini AI** for intelligent recommendations
 - **Firebase** for robust authentication
 - **React Community** for excellent documentation and tools
-
-## 📞 Support
-
-For support, email [your-email@example.com] or create an issue in the repository.
-
----
 
 **Built with ❤️ using React, Tailwind CSS, and AI technology**
